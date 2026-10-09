@@ -1,0 +1,6 @@
+interface:
+  display_name: "点击式科普动画"
+  short_description: "先设计讲解分镜，再生成点击推进的 HTML 动画，可转换为平滑切换的 PowerPoint"
+  default_prompt: "用 $html-svg-gsap-explainer 将这个知识点做成点击式科普动画，先生成分镜，再生成 HTML。"
+policy:
+  allow_implicit_invocation: true
